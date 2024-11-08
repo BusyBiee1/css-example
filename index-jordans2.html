@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+        span{
+            font-family:Georgia;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="keyTerms">
+        <p>CSS Box Model </p>
+        <p>CSS Selectors</p>
+
+        <p>Forms/ Inputs </p>
+        <p>Tables</p>
+    </div>
+    <div class="container">
+      <h1 class="containerTitle">Margin</h1>
+
+      <div class="screen">"space AROUND my element"</div>
+      <div class="displayShow">
+        <div class="box" id="margin1">a</div>
+        <div class="box" id="margin1">b</div>
+        <div class="box" id="margin1">c</div>
+      </div>
+    </div>
+    <!-- Margin -->
+    <div class="container">
+      <h1 class="containerTitle">Padding</h1>
+
+      <div class="screen">
+        "space INSIDE my element"
+      </div>
+      <div class="displayShow">
+        <div class="box" id="padd1">a</div>
+        <div class="box" id="padd1">b</div>
+        <div class="box" id="padd1">c</div>
+      </div>
+    </div>
+    <!-- Padding -->
+    <div class="container">
+        <h1 class="containerTitle">Styling</h1>
+  
+        <div class="screen">
+         <span id="bad"> Internal</span> <hr />
+          <span id="good"> External</span> <hr />
+          <span style="font-family: 'Courier New', Courier, monospace;" id="bad">Inline</span> <hr />
+        </div>
+      </div>
+    <!-- STYLING -->
+
+    <div class="container">
+        <h1 class="containerTitle">Selectors</h1>
+  
+        <div class="screen">
+          "single selectors vs multi selectors"
+        </div>
+        <div class="displayShow">
+          <div class="box" id="padd1">
+             someElement{
+                <br/>
+                key: Value
+                <br/>
+            }
+
+          </div>
+          <div class="box" id="padd1">
+            .someElement, .anotherEle{
+                <br/>
+                key: Value
+                <br/>
+            }
+          </div>
+        </div>
+      </div>
+      <!-- Selectors -->
+      <div class="container">
+        <h1 class="containerTitle">Tables</h1>
+  
+        <div class="screen">"tr td th table"</div>
+        <div class="displayShow">
+            <table>
+                <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+              </table>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="containerTitle">Forms</h1>
+  
+        <div class="screen">"radios checkboxes  date etc"</div>
+        <div class="displayShow">
+            <div class="oops">
+               Text:  <input type="text"><br/>
+              Radio:   <input type="radio"><br/>
+               CheckBox:  <input type="checkbox"><br/>
+               Date:  <input type="date"><br/>
+               Time: <input type="time"><br/>
+               <textarea name="" id="" cols="30" rows="10"> TextArea:</textarea><br/>
+            </div>
+      
+        </div>
+      </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>

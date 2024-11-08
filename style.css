@@ -1,0 +1,13 @@
+.box{
+
+border:solid blue
+height:99px;
+width:99px;
+margin:50px;
+margin-left:75vw;
+
+.parent[
+    broder:solid
+    height:auto or height:100%
+]
+}

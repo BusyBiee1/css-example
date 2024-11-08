@@ -1,0 +1,16 @@
+body{
+    /* padding:200px; */
+}
+.box{
+    border:solid blue;
+    height:40px;
+    width:100%;
+    margin:1em;
+}
+.parent{
+    border:solid purple;
+    /* width:100%; */
+   display:flex;
+    /* margin:1em; */
+ 
+}

@@ -1,0 +1,53 @@
+body{
+    background-color:peru;
+}
+.container{
+    border:solid black;
+    background-color:lemonchiffon;
+    margin:1em;
+    padding:1em;
+    border-width:.2px;
+    /* height:55vh; */
+}
+.screen{
+    /* border:solid grey; */
+    margin:1em;
+    /* height:55px; */
+}
+.displayShow{
+    border:solid navy;
+    display:flex;
+    padding:6px;
+}
+.box{
+    border:solid red;
+    height:90px;
+    width:90px;
+    font-size:12px;
+}
+.keyTerms{
+    border:solid purple;
+
+}
+#margin1{
+    margin:10px;
+}
+#padd1{
+    padding:10px;
+    /* width:33%; */
+}
+#bad:hover{
+    color:red;
+    font-size:22px;
+    transition:.3s;
+}
+#good:hover{
+    color:green;
+    font-size:22px;
+    font-family:cursive;
+    transition:.3s;
+}
+
+table, td,tr,th{
+    border:solid blue;
+}
